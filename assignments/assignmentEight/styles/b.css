@@ -1,0 +1,25 @@
+.one
+{
+	width: 50vw;
+	height: 100vh;
+	background-color: blue;
+	margin-left: 25vw;
+	margin-top: 50vh;
+}
+.two
+{
+	width: 50vw;
+	height: 100vh;
+	background-color: red;
+	margin-left: 75vw;
+	margin-top: 50vh;
+}
+div
+{
+	position: fixed;
+   -webkit-transform: translate(-50%, -50%);
+}
+body
+{
+margin: 0;
+}

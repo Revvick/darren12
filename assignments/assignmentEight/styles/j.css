@@ -1,0 +1,41 @@
+.one
+{
+	width: 60vw;
+	height: 40vh;
+	background-color: blue;
+	margin-left: 75vw;
+	margin-top: 80vh;
+}
+.two
+{
+	width: 50vw;
+	height: 50vh;
+	background-color: red;
+	margin-left: 75vw;
+	margin-top: 25vh;
+}
+.three
+{
+	width: 50vw;
+	height: 50vh;
+	background-color: green;
+	margin-left: 25vw;
+	margin-top: 75vh;
+}
+.four
+{
+	width: 50vw;
+	height: 50vh;
+	background-color: yellow;
+	margin-left: 75vw;
+	margin-top: 75vh;
+}
+div
+{
+	position: fixed;
+   -webkit-transform: translate(-50%, -50%);
+}
+body
+{
+margin: 0;
+}
