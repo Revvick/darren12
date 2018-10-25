@@ -1,0 +1,25 @@
+Don't center text.
+
+Mobile text bigger, maybe also desktop
+
+Maybe cut out references
+
+sub sub head styling
+
+Be tactical about sub heading usage.
+
+use 16 as smallest type size and adjust from there. 
+
+bring more pictures. 
+
+make bigger text orange pissibly 
+
+more consistant format between large and small screens.
+
+---
+
+If you are at 16 font, the default, don't have more than 40-60 characters per line. If your line reaches across the page make your font bigger to maintain this amount. 
+
+In any case do what looks good. 
+
+If you are leaving links in your article style them.  
