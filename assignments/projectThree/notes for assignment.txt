@@ -12,7 +12,7 @@ use 16 as smallest type size and adjust from there.
 
 bring more pictures. 
 
-make bigger text orange pissibly 
+make bigger text orange possibly 
 
 more consistant format between large and small screens.
 

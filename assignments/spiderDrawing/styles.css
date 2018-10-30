@@ -1,0 +1,71 @@
+*{box-sizing: border-box}
+
+div
+{
+  position: fixed;
+   -webkit-transform: translate(-50%, -50%);
+   z-index: 10;
+
+}
+
+body
+{
+	background-color: #000000;
+}
+
+.webStrand
+{
+	background-color: #ff0000;
+	width: 1px;
+	height: 50vh;
+	left: 50vw;
+	top: 25vh;
+}
+
+.mainContainer
+{
+	width: 400px;
+	height: 400px;
+	left: 50vw;
+	top: 50vh;
+	/*background-color: white;*/
+}
+
+.spiderUpperBody
+{
+	border: 1px solid #ff0000;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin-left: 50%;
+	margin-top: 44%;
+	background-color: #ff0000;
+}
+
+.spiderLowerBody
+{
+	border: 1px solid #ff0000;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	margin-left: 50%;
+	margin-top: 61%;
+	background-color: #ff0000;
+}
+
+.topLegs
+{
+	width: 30%;
+	margin-left: 50vw;
+	margin-top: 50vh;
+	position: absolute;
+}
+.legs
+{
+	width: 60%;
+	margin-left: 80px;
+	margin-right: 200px;
+	margin-top: 150;
+	z-index: 1;
+	position: absolute;
+}
