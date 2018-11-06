@@ -1,0 +1,5 @@
+List of questions for teacher
+
+1. Why wont the images show up in the actual site?
+
+2. Why are these two elements overlapping, shouldn't the divs keep them seperate?
