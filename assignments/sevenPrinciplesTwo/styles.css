@@ -28,44 +28,46 @@ h1
 			{
 				text-align: center;
 			}
-	@media only screen and (max-width: 600px) {
-	body 
+	@media only screen and (max-width: 600px) 
 	{
-	background-color: tomato;
+		body 
+		{
+			background-color: tomato;
+		}
+		img 
+		{
+			max-width: 100%;
+		}
+		h1
+		{
+			text-align: left;
+			margin-left: 10vw;
+			margin-right: 10vw;
+			font-size: 32px;
+		}
+		.imageSubtitle
+		{
+			text-align: left;
+			margin-left: 10vw;
+			margin-right: 10vw;
+			font-family: 'Indie Flower', cursive;
+		}
+		h2
+		{
+			margin-left: 10vw;
+			margin-right: 10vw;
+			font-size: 60px;
+			text-align: center;
+		}
+		.default
+		{
+			margin-right: 10vw;
+			margin-left: 10vw;
+			font-size: 40px;
+		}
+		li
+		{
+			text-align: left;
+			margin-left: 10vw;
+		}
 	}
-	img {
-	max-width: 100%;
-	}
-	h1
-	{
-	text-align: left;
-	margin-left: 10vw;
-	margin-right: 10vw;
-	font-size: 32px;
-	}
-	.imageSubtitle
-			{
-				text-align: left;
-				margin-left: 10vw;
-				margin-right: 10vw;
-				font-family: 'Indie Flower', cursive;
-			}
-			h2
-			{
-				margin-left: 10vw;
-				margin-right: 10vw;
-				font-size: 60px;
-				text-align: center;
-			}
-			.default
-			{
-				margin-right: 10vw;
-				margin-left: 10vw;
-				font-size: 40px;
-			}
-			li
-			{
-				text-align: left;
-				margin-left: 10vw;
-			}
-}

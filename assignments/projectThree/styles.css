@@ -1,30 +1,36 @@
 div
 {
-	background: blue;
+}
+
+body
+{
+	margin: 0;
 }
 
 .title
 {
 	max-width: 100%;
 	height: 100vh;
+	/*background-color: yellow;*/
+	margin:0 auto;
 }
 .batman
 {
 	width: 100%;
 	height: 20%;
 	top: 10%;
-	margin: 0 auto;
 	position: relative;
 	text-align: center;
 	font-size: 160px;
 	letter-spacing: 40px;
+	/*background-color: green;*/
 }
 
 .pushedDown
 {
 	font-size: 40px;
 	letter-spacing: 3px;
-	
+	/*background-color: red;*/
 }
 
 .header
@@ -36,14 +42,40 @@ div
 	margin-bottom: -60px;
 }
 
+.halfSubHeader /*This header is halfway between header and subheader in terms of size.*/
+{
+	font-size: 70px;
+	letter-spacing: 17px;
+	text-align: center;
+	color: orange;
+	margin-bottom: -55px;
+}
+
+.subHeader
+{
+	font-size: 60px;
+	letter-spacing: 15px;
+	text-align: center;
+	color: orange;
+	margin-bottom: -50px;
+}
+
 .fancyLine
 {
-	width: 60%;
-	height: 10px;
-	background-color: orange;
+	width: 80%;
+	height: 5px;
+	/*background-color: orange;*/
 	margin: 0 auto;
 }
-.firstImage
+
+.smallerFancyLine
+{
+	width: 60%;
+	height: 5px;
+	/*background-color: orange;*/
+	margin: 0 auto;
+}
+.sectionLargeImage
 {
 	display: block;
     margin-left: auto;
@@ -53,20 +85,135 @@ div
 	width: 80%;
 }
 
-.sectionContent
+.sectionLargeImage
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 80%;
+}
+
+.sectionSmallImage
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 80%;
+}
+
+.leftSidebarImage
+{
+	width: 20%;
+	position: relative;
+	float: left;
+	/*margin-left: 5vw;*/
+}
+
+.rightSidebarImage
+{
+	width: 20%;
+	position: relative;
+	float: left;
+	/*margin-right: 5vw;*/
+	
+}
+
+.sectionContainer
+{
+width: 100%;
+/*background-color: blue;*/
+height: 6000px;
+}
+
+.subSectionContainer
+{
+	/*For keeping things a little tight in each individual section.*/
+}
+
+.subSquaredContainer
 {
 
 }
 
-.sidebar
+.sectionTextContainer
 {
-	background: gold;
-	width: 25vw;
+	width: 50%;
+	position: relative;
 	float: left;
+	font-size: 40px;
+	/*background-color: red;*/
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
-.sectionText
+.largeA /*For enlarging sections by one "degree".*/
 {
-	width: 50vw;
-	float: left;
+	height: 16200px;
+}
+
+.smallA
+{
+	height: 2000px;
+}
+
+
+
+
+.quickCenter
+{
+	margin-left: 30vw;
+}
+
+.slightBottomMartin
+{
+	margin-bottom: 30px;
+}
+
+.greenBackground
+{
+	/*background-color: green;*/
+}
+
+.redBackground
+{
+	/*background-color: red;*/
+}
+
+@media only screen and (max-width: 768px) 
+{
+
+	.title
+	{
+		max-width: 100%;
+		height: 100vh;
+		background-color: yellow;
+		margin:0 auto;
+	}
+
+	.batman
+	{
+		width: 100%;
+		height: 20%;
+		top: 10%;
+		position: relative;
+		text-align: center;
+		font-size: 100px;
+		letter-spacing: 40px;
+		/*background-color: green;*/
+	}
+
+	.leftSidebar
+	{
+		display: none;
+	}
+
+	.rightSidebar
+	{
+		display: none;
+	}
+
 }
