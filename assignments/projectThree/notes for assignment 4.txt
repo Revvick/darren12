@@ -1,0 +1,5 @@
+Shrink empty gap
+
+kill side images
+
+change background to something that works better with text color, or change text color. 
