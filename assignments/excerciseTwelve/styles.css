@@ -1,0 +1,57 @@
+div
+{
+	-webkit-transform: translate(-50%, -50%);
+}
+
+.maroon
+{
+	background-color: maroon;
+}
+
+.firstDiv
+{
+	margin-top: 10vh;
+}
+
+.testDiv
+{
+	width: 20vw;
+	height: 20vh;
+	background-color: cyan;
+	margin-bottom: 10vh;
+}
+
+.odd
+{
+	margin-left: 25vw;
+}
+
+.even
+{
+	margin-left: 75vw;
+}
+
+.stable
+{
+	margin-left: 50vw;
+}
+
+.noBottomMargin
+{
+	margin-bottom: 0vh;
+}
+
+.notMaroon
+{
+	background-color: red;
+}
+
+.unallignedOdd
+{
+	margin-left: 25;
+}
+
+.unallignedEven
+{
+	margin-right: 75;
+}
