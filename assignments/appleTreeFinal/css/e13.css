@@ -1,0 +1,80 @@
+
+*{
+	transition: all 2s ease;
+}
+
+.fallen{
+	display: none;
+}
+h1{
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 2px;
+	font-size: 20pt;
+}
+
+.container1{
+	width:395px;
+	margin: 0 auto;
+	text-align: center;
+}
+.container2{
+	position: relative;
+}
+.tree{
+	position: absolute;
+	top:0;
+	left:0;
+}
+.apple1{
+	position:absolute;
+	top:84px;
+	left:23px;
+}
+.apple2{
+	position:absolute;
+	top:157px;
+	left:108px;
+}
+.apple3{
+	position:absolute;
+	top:37px;
+	left:96px;
+}
+.apple4{
+	position:absolute;
+	top:119px;
+	left:205px;
+}
+.apple5{
+	position:absolute;
+	top:30px;
+	left:166px;
+}
+.apple6{
+	position:absolute;
+	top:83px;
+	left:119px;
+}
+.apple7{
+	position:absolute;
+	top:67px;
+	left:269px;
+}
+.apple8{
+	position:absolute;
+	top:135px;
+	left:317px;
+}
+
+
+@media only screen and  (max-width: 400px) {
+	.container1{
+		width:300px;
+	}
+	/*.treeimage{
+		width:300px;
+	}*/
+	.tree img {
+		max-width: 100%;
+	}
+}

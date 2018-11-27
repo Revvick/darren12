@@ -1,0 +1,55 @@
+
+.h1{
+	position: fixed;
+	margin-left: 480px;
+	margin-top: -120px;
+}
+h1{
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 2px;
+	font-size: 35pt;
+}
+.tree{
+	margin-top: 100px;
+	margin-left: 450px;
+}
+.apple1{
+	position: fixed;
+	margin-top: -450px;
+	margin-left: 580px;
+}
+.apple2{
+	position: fixed;
+	margin-top: -510px;
+	margin-left: 620px;
+}
+.apple3{
+	position: fixed;
+	margin-top: -50px;
+	margin-left: 650px;
+}
+.apple4{
+	position: fixed;
+	margin-top: -460px;
+	margin-left: 700px;
+}
+.apple5{
+	position: fixed;
+	margin-top: -500px;
+	margin-left: 520px;
+}
+.apple6{
+	position: fixed;
+	margin-top: -400px;
+	margin-left: 760px;
+}
+.apple7{
+	position: fixed;
+	margin-top: -380px;
+	margin-left: 600px;
+}
+.apple8{
+	position: fixed;
+	margin-top: -550px;
+	margin-left: 690px;
+}
