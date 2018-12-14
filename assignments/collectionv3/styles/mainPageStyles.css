@@ -1,0 +1,273 @@
+/*Because final and fancy line go hand in hand I'm keeping them next to each other. Other than that all the styles should appear in the order they are used on the page before the media query section.*/
+
+body
+{
+	margin: 0;
+	background-color: orange;
+}
+
+.blue
+{
+	background-color: blue;
+}
+
+.mainContainer
+{
+	width: 95%;
+	margin: 0 auto;
+	background-color: green;
+}
+
+
+
+.title
+{
+	width: 100%;
+	height: 150px;
+	background-color: red;
+}
+
+.header
+{
+	font-size: 72px;
+	text-align: left;
+	width: 40%;
+	height: 80px;
+	background-color: yellow;
+}
+
+.fancyLine
+{
+	width: 100%;
+	background-color: black;
+	height: 6px;
+}
+
+
+.final
+{
+	width: 80%;
+	margin-top: 25px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.subHeader
+{
+	font-size: 48px;
+	text-align: left;
+	width: 100%;
+	height: 100px;
+	background-color: purple;
+}
+
+
+
+.photoGallery
+{
+	margin: auto;
+	background-color: pink;
+	width: 2000;
+	height: 700px;
+
+}
+
+.photo
+{
+	
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 300px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background-color: white;
+	border: 0px;
+}
+
+/*Toggles are for small desktop styles.*/
+.patternOneToggle
+{
+	width: 800px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.patternTwoToggle
+{
+	width: 1200px;
+	height: 400px;
+}
+
+.circle
+{
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	background-color: black;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+
+
+
+@media only screen and (max-width: 1919px)
+{
+	.mainContainer
+	{
+		width: 90%;
+		background-color: green;
+	}
+	.title
+	{
+		height: 176px;
+	}
+
+	.header
+	{
+		font-size: 72px;
+		text-align: center;
+		width: 100%;
+		height: 90px;
+		background-color: yellow;
+	}
+
+	.subHeader
+	{
+		font-size: 48px;
+		text-align: center;
+		width: 100%;
+		height: 80px;
+		background-color: purple;
+	}
+
+	.photoGallery
+	{
+		margin: auto;
+		background-color: pink;
+		width: 1200px;
+		height: 1600px;
+	}
+
+	.photo
+	{
+		width: 300px;
+		height: 300px;
+		margin-left: 50px;
+		margin-right: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.final
+	{
+		margin-top: 50px;
+	}
+
+	.circle
+	{
+		border-radius: 50%;
+		height: 50px;
+		width: 50px;
+		background-color: black;
+		margin: auto;
+		margin-top: 50px;
+		margin-bottom: 25px;
+	}
+
+
+}
+
+@media only screen and (max-width: 1361px)
+{
+	.mainContainer
+	{
+		width: 90%;
+		background-color: green;
+	}
+	.title
+	{
+		height: 176px;
+	}
+
+	.header
+	{
+		font-size: 72px;
+		text-align: center;
+		width: 100%;
+		height: 90px;
+		background-color: yellow;
+	}
+
+	.subHeader
+	{
+		font-size: 48px;
+		text-align: center;
+		width: 100%;
+		height: 80px;
+		background-color: purple;
+	}
+
+	.photoGallery
+	{
+		margin: auto;
+		background-color: pink;
+		width: 800px;
+		height: 2000px;
+	}
+
+	.photo
+	{
+		width: 300px;
+		height: 300px;
+		margin-left: 50px;
+		margin-right: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.final
+	{
+		margin-top: 50px;
+	}
+
+	.circle
+	{
+		border-radius: 50%;
+		height: 50px;
+		width: 50px;
+		background-color: black;
+		margin: auto;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+
+}
+
+@media only screen and (max-width: 908px)
+{
+	.photoGallery
+	{
+
+		margin: auto;
+		background-color: pink;
+		width: 400px;
+		height: 4000px;
+	}
+
+	.photo
+	{
+		width: 300px;
+		height: 300px;
+		margin-left: 50px;
+		margin-right: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+}

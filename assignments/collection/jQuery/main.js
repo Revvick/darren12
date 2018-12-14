@@ -7,10 +7,12 @@ $(document).ready(function() {
 function startFunction() {	
 
 	$(window).on('resize', function(){
-	if ( ($(window).height() < 1920) && ($(window).height() > 1023)  ){
+	if ( ($(window).width() < 1900) && ($(window).width() > 1344)  ){
+		console.log("The window is medium sized.");
         $('.patternOne').addClass('patternOneToggle');
         $('.patternTwo').addClass('patternTwoToggle');
     }else{
+		console.log("The window is not medium sized.");
         $('.patternOne').removeClass('patternOneToggle');
         $('.patternTwo').removeClass('patternTwoToggle');
     }

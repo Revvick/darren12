@@ -1,0 +1,175 @@
+body
+{
+	background-color: orange;
+	margin: 0;
+}
+
+.mainContainer
+{
+	width: 90%;
+	height: 969px;
+	margin: 0 auto;
+	background-color: green;
+}
+
+.detailsContainer
+{
+	width: 70%;
+	height: 969px;
+	background-color: blue;
+	float: left;
+}
+
+.photoAndArrowsContainer
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+    width: 950px;
+	height: 562.5px;
+	background-color: pink;
+}
+
+.arrowContainer
+{
+	height: 50px;
+	width: 100px;
+	background-color: purple;
+	float: left;
+	padding-top: 512.5px;
+}
+
+.arrowMod
+{
+	font-size: 50px;
+	float: bottom;
+}
+
+.rightSide
+{
+	padding-left: 50px;
+	width: 50px;
+}
+
+.mainPhoto
+{
+    display: block;
+    width: 750px;
+	height: 562.5px;
+	float: left;
+}
+
+.photoDetails
+{
+	width: 500px;
+	height: 175px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+}
+
+.notForLargestScreenSize
+{
+	display: none;
+}
+
+h2
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.circle
+{
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	background-color: black;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.galleryContainer
+{
+	padding-top: 3px;
+	width: 30%;
+	height: 969px;
+	background-color: red;
+	float: left;
+}
+
+.quickBuffer
+{
+	margin-top: 20px;
+}
+
+.gallery
+{
+	width: 380px;
+	height: 950px;
+	background-color: grey;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.photoLink
+{
+	width: 150px;
+	height: 150px;
+	background-color: white;
+	float: left;
+	margin: 20px;
+}
+
+@media only screen and (max-width: 1919px)
+{
+
+
+
+	.detailsContainer
+	{
+		width: 100%;
+		height: 600px;
+		background-color: blue;
+		float: left;
+	}
+
+	.galleryContainer
+	{
+		width: 100%;
+		height: 369px;
+		background-color: red;
+	}
+
+	.photoAndArrowsContainer
+	{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 750px;
+	}
+
+	.photoDetails
+	{
+		display: block;
+		width: 500px;
+		height: 175px;
+		margin-left: 0px;
+		margin-right: 0px;
+		float: left;
+	}
+
+	.largestScreenSizeOnly
+	{
+	display: none;
+	}
+
+	.notForLargestScreenSize
+	{
+		display: block;
+	}
+}

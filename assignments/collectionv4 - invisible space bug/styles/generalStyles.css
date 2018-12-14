@@ -1,0 +1,16 @@
+.centered 
+{
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.quickTopMargin
+{
+	margin-top: 10px;
+}
+
+.fancyLine
+{
+	width: 100%;
+	background-color: black;
+	height: 6px;
+}
